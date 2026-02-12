@@ -1,6 +1,6 @@
 const priceOfIceCream = 6;
 let paymentRecieved = prompt("Pay");
-let isPaymentEnough = paymentRecieved >= priceOfIceCream
+let isPaymentEnough = paymentRecieved >= priceOfIceCream;
 
 if (isPaymentEnough) {
     print("Amount charged: " + priceOfIceCream + "\nThanks! Enjoy the Ice Cream!"); // \n for new line
